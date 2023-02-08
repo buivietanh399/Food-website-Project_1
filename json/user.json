@@ -9,18 +9,90 @@
   "roles": [
     "ADMIN"
   ],
-  "photo": "1632966584445_anh.jpg"
+  "photo": "1670988743572_Ảnh chụp màn hình_20221120_123753.png"
 },{
   "_id": {
-    "$oid": "5f9c4510a3de3a0c50c6ea43"
+    "$oid": "63b674bf80545335681e66aa"
   },
-  "id": 13,
+  "id": 23,
   "fullname": "Bùi Việt Anh",
-  "email": "phuongnamhd00@gmail.com",
-  "password": "$2a$16$gPTLCKrP6TAcd7.z1nwCV.r24j.Xoiw8Lue/PAKj9ev41h4Bq0lMW",
+  "email": "buivietanh499@gmail.com",
+  "password": "$2a$16$aRnlU5FsL6tq7VmXjPOIfOSBfmlWdTUjR8PTGVC5YiE7nL03z2DS6",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63be5d44be926c30fc3c98a4"
+  },
+  "id": 24,
+  "fullname": "Việt Anh",
+  "email": "buivietanh599@gmail.com",
+  "password": "$2a$16$0DcYLlunOm8PIc2aOWal/.y9G4qpZf8a3M0R2.fjJ/WVqnKjzKxl.",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63be618abba9450f586d8abd"
+  },
+  "id": 25,
+  "fullname": "Anh Việt",
+  "email": "buivietanh699@gmail.com",
+  "password": "$2a$16$5L4zn9TjOQg8xBFmfkYYY.9Kq/T8ODvzkmvXpoC0GMsgUvlsMsQ16",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63dfe784c68edc1fd8b6ece6"
+  },
+  "id": 32,
+  "fullname": "Bùi Việt Anh",
+  "email": "buivietanh399@gmail.com",
+  "password": "$2a$16$XbB9qgMlLaqRCXN/vauaFug1taGFunITGUEfsHImO6ffNeMxmOAqy",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e3a0f6d80e2a5238a47cf1"
+  },
+  "id": 33,
+  "fullname": "Alo123456",
+  "email": "buivietanh799@gmail.com",
+  "password": "$2a$16$pwyAcwCyXrpL3r7vCLEdM.sVejiv41XCAh4HLEfHH9X5XtASHMo.K",
   "roles": [
     "CUSTOMER"
   ],
   "__v": 0,
-  "photo": "1632975395878_chon-nghe-2.jpg"
+  "isDeleted": true
+},{
+  "_id": {
+    "$oid": "63e3a0fdd80e2a5238a47cf2"
+  },
+  "id": 34,
+  "fullname": "Alo123456",
+  "email": "buivietanh799@gmail.com",
+  "password": "$2a$16$brR8kC6MkGlkA5gLCEVDlOqMBH4mpSeX5fVlpnbChn9fYmKS9Vt1q",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e3a145d80e2a5238a47cf3"
+  },
+  "id": 35,
+  "fullname": "justin biber",
+  "email": "a@gmail.com",
+  "password": "$2a$16$Yq2nE2UUS1DGNwPz.X8dd.arqsUBArsHLxooXx1pcWgCqqoS9Ekjy",
+  "roles": [
+    "CUSTOMER"
+  ],
+  "__v": 0
 }]

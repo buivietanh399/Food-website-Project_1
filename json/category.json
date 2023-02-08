@@ -30,7 +30,7 @@
     "$oid": "6162ac0fe8f08f31644b0a13"
   },
   "id": 13,
-  "name": "Mỳ Ý",
+  "name": "Mỳ Ý ",
   "urlRewriteName": "my-y-",
   "isDeleted": false,
   "__v": 0
@@ -48,8 +48,8 @@
     "$oid": "6162e774e8f08f31644b0a1f"
   },
   "id": 15,
-  "name": "Đồ uống",
-  "urlRewriteName": "do-uong",
+  "name": "Đồ uống ",
+  "urlRewriteName": "do-uong-",
   "isDeleted": false,
   "__v": 0
 }]
