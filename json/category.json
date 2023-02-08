@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "60799dc7c2c96719708b475f"
+  },
+  "id": 8,
+  "name": "Pizza",
+  "urlRewriteName": "pizza",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60799dd3c2c96719708b4760"
+  },
+  "id": 9,
+  "name": "Hamburger",
+  "urlRewriteName": "hamburger",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60799de0c2c96719708b4761"
+  },
+  "id": 10,
+  "name": "Bánh mỳ",
+  "urlRewriteName": "banh-my",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6162ac0fe8f08f31644b0a13"
+  },
+  "id": 13,
+  "name": "Mỳ Ý",
+  "urlRewriteName": "my-y-",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6162e33ee8f08f31644b0a1a"
+  },
+  "id": 14,
+  "name": "Gà rán",
+  "urlRewriteName": "ga-ran",
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6162e774e8f08f31644b0a1f"
+  },
+  "id": 15,
+  "name": "Đồ uống",
+  "urlRewriteName": "do-uong",
+  "isDeleted": false,
+  "__v": 0
+}]
