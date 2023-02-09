@@ -60,9 +60,11 @@ module.exports.auth = () => {
   //     failureFlash: true
   //   }
   // );
+ 
   return Passport.authenticate(
     'local', {
-      // successRedirect: '/',
+      
+      // successRedirect: redirectTo,
       failureRedirect: '/dang-nhap.html',
       failureFlash: true
     }
