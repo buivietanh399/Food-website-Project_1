@@ -28,7 +28,7 @@ router.get('/', Passport.requireAuth, async (req, res) => {
 
   if (arr && arr.length > 0) {
     for (const x of arr) {
-      data.profit += x.total;
+      data.profit += (x.total/10);
     }
   }
 

@@ -116,7 +116,7 @@ router.get('/xoa/:id', Passport.requireAuth, async (req, res) => {
 
 
   //tim oder theo so dien thoai
-  const sodienthoai = '0912345678';
+  const sodienthoai = '0703866975';
 
   const aOrder = await OrderModel.find(
     {

@@ -62,8 +62,8 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <% var id = 0; var total = 0 %>
-                                        <% order.details.forEach(function(detail){ id ++; total += detail.price;%>
+                                        <% let id = 0; let total = 0; %>
+                                        <% order.details.forEach(function(detail){ id++ ; total += detail.price;%>
                                         <tr>
                                             <td><%= id%></td>
                                             <td><%= detail.item.name%></td>

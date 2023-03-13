@@ -49,7 +49,7 @@
                                             <th>SĐT</th>
                                             <th>Email</th>
                                             <th>Tổng</th>
-                                             <th>Ngày mua</th>
+                                            <th>Ngày mua</th>
                                             <th>Hành động</th>
                                            
                                         </tr>
@@ -63,9 +63,9 @@
                                                 <td><%= item.name%></td>
                                                 <td><%= item.phone%></td>
                                                 <td><%= item.email%></td>
-                                                <td><%= parseInt(item.total).toLocaleString('en-us') %></td>
+                                                <td><%= parseInt(item.total / 10).toLocaleString('en-us') %></td>
                                                 <td>
-                                                    <%= moment(item.created_at).format('DD/MM/YYYY') %>
+                                                    <%=  moment(item.createdAt).format('DD/MM/YYYY') %>
                                                 </td>
                                                 <td>
                                                     <a href="/admin/order/chi-tiet/<%= item.id %>.html">Xem |</a>

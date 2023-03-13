@@ -14,9 +14,9 @@ const Model = new mongoose.Schema(
     ship: String,
     isDeleted: Boolean,
     userId : Number,
-    created_at: {
+    createdAt: {
       type: Date,
-      require: true
+      default: Date.now
     },
   },
   {

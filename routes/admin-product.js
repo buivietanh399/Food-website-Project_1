@@ -26,7 +26,8 @@ router.get('/', Passport.requireAuth, (req, res) => {
 
 router.get('/danh-sach.html', Passport.requireAuth, async (req, res) => {
   const model = {};
-  
+ 
+
   model.data = await ProductModel.find(
     {
       isDeleted: false
@@ -89,7 +90,7 @@ router.post('/them.html', Passport.requireAuth, upload.single('hinh'), async (re
     isDeleted: false
   };
 
-  createData.salePrice = createData.price - (createData.sale * createData.price) / 100;
+  createData.salePrice = createData.price - (createData.sale * createData.price/100) ;
 
   createData.urlRewriteName = Charset.removeUnicode(req.body.name);
 
@@ -177,7 +178,7 @@ router.post('/sua/:id.html',  upload.single('hinh'), async (req, res) => {
     sale1: req.body.sale,
   };
 
-  updateData.salePrice = updateData.price - (updateData.sale * updateData.price) / 100;
+  updateData.salePrice = updateData.price - (updateData.sale * updateData.price/100) ;
 
   updateData.urlRewriteName = Charset.removeUnicode(req.body.name);
 
